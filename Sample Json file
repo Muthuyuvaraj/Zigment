@@ -1,0 +1,37 @@
+{
+  "formTitle": "Sample Form",
+  "formDescription": "Fill in the details below:",
+  "fields": [
+    {
+      "id": "name",
+      "type": "text",
+      "label": "Full Name",
+      "required": true,
+      "placeholder": "Enter your full name"
+    },
+    {
+      "id": "email",
+      "type": "email",
+      "label": "Email Address",
+      "required": true,
+      "placeholder": "Enter your email"
+    },
+    {
+      "id": "gender",
+      "type": "radio",
+      "label": "Gender",
+      "required": true,
+      "options": [
+        { "value": "male", "label": "Male" },
+        { "value": "female", "label": "Female" }
+      ]
+    },
+    {
+      "id": "feedback",
+      "type": "textarea",
+      "label": "Feedback",
+      "required": false,
+      "placeholder": "Your feedback..."
+    }
+  ]
+}
